@@ -1,0 +1,10 @@
+{
+  "version": "2",
+  "applications": {
+    "home": {
+      "integrationMode": "iframe",
+      "src": "https://wikipedia.org",
+      "route": "./"
+    }
+  }
+}

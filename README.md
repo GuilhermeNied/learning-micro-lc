@@ -23,6 +23,16 @@ Micro lc pode ser configurado via CDN e acoplado a páginas HTML ou outros scrip
 | -------------------- | -------- | ----------- | ---------- | ------------ | --------- |
 | X                    | V        | V           | V          | V            | V         |
 
+## Starting
+
+micro-lc é enviado como um pacote CDN em ES module e pode ser importado em qualquer página HTML.
+
+Para começar devemos criar um arquivo html importando o micro-lc do CDN como está descrito na doc.
+
+O micro-lc funciona sem um arquivo de configuração, mas será exibida uma página 404. Podemos criar um JSON igual ao que tem na doc par começar.
+
+# Olar como ele fazer por tras
+
 # Olhar Shadow DOM
 
 # Refs
