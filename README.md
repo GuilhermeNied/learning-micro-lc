@@ -13,6 +13,18 @@ Um iframe e um site externo acoplado em uma aplicação.
 Parcels é uma aplicação completa(sendo uma single-page) que fica dentro do contexto da aplicação principal, mas está em um JS-sandbox e é roteada.
 Shadowed components são encapsulados ná lógica de negóicios por meio de componentes web que permitem proteger contra vazamaentos de style e definir escopos de eventos utilizando HTML5 Shadow DOM.
 
+A orquestração acontece runtime utilizando JSON ou YAML como configuração para tudo o que o micro-lc precisa para adicionar uma nova aplicação micro-frontend. A confuração pode ser fei de forma rápida e também pode ser editada em tempo de execução, fazendo com que somente atualizar a página seja o suficiente para visualizar a nova aplicação após as configurações.
+
+Micro lc pode ser configurado via CDN e acoplado a páginas HTML ou outros scripts, e tabém como um container Docker que pode ser confurado com volumes.
+
+## Browser compatibility
+
+| Internet Explores 11 | Edge 79+ | Firefor 67+ | Chrome 64+ | Safara 11.1+ | Opera 51+ |
+| -------------------- | -------- | ----------- | ---------- | ------------ | --------- |
+| X                    | V        | V           | V          | V            | V         |
+
+# Olhar Shadow DOM
+
 # Refs
 
 [micro-lc](https://micro-lc.io/docs)
