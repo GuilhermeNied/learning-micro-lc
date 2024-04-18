@@ -31,7 +31,11 @@ Para começar devemos criar um arquivo html importando o micro-lc do CDN como es
 
 O micro-lc funciona sem um arquivo de configuração, mas será exibida uma página 404. Podemos criar um JSON igual ao que tem na doc par começar.
 
-# Olar como ele fazer por tras
+## Compose Frontend
+
+Primeiro criamos uma config em branco somente com version, como no exemplo na documentação.
+
+# Olhar como ele fazer por tras
 
 # Olhar Shadow DOM
 
