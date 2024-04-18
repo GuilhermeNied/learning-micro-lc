@@ -35,6 +35,34 @@ O micro-lc funciona sem um arquivo de configuração, mas será exibida uma pág
 
 Primeiro criamos uma config em branco somente com version, como no exemplo na documentação.
 
+## Add some compose context
+
+[<u>Composition</u>](https://micro-lc.io/docs/concepts/composition/) se refere a capacidade de construir um microfrontend a partir de uma configuração.
+Vamos ajustar a config para ter um compose context para exibir algo na rota principal `/`.
+
+Imaginamos o seguinte cenário, desejamos exibir o seguinte conteudo na rota principal.
+
+```
+  <div>
+  <img
+    alt="logo"
+    src="https://cdn.jsdelivr.net/npm/@micro-lc/orchestrator/dist/favicon.png"
+  ></img>
+  <a
+    href="https://micro-lc.io/"
+    target="_blank"
+  >Get started with the official documentation!</a>
+</div>
+```
+
+Consiste em uma imagem seguida de um link, agora vamos representar esse HTML em um JSON utilizando a seguinte regra:
+
+- `a` -> `"tag": "a"`
+- `href="https://micro-lc.io/"` -> `"attributes": {"href": "https://micro-lc.io/"}`
+- `Get started with the official documentation!` -> `"content": "Get started with the official documentation!"`
+
+Para cada tag HTML vamos criar um objeto JSON com os campos `tag`, `attributes` e `content` representando a sua respectiva tag e os seus childrens.
+
 # Olhar como ele fazer por tras
 
 # Olhar Shadow DOM

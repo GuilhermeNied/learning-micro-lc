@@ -1,3 +1,31 @@
 {
-  "version": 2
+  "version": 2,
+  "applications": {
+    "home": {
+      "integrationMode": "compose",
+      "route": "/",
+      "config": {
+        "content": {
+          "tag": "div",
+          "content": [
+            {
+              "tag": "img",
+              "attributes": {
+                "alt": "logo",
+                "src": "https://cdn.jsdelivr.net/npm/@micro-lc/orchestrator/dist/favicon.png"
+              }
+            },
+            {
+              "tag": "a",
+              "attributes": {
+                "href": "https://micro-lc.io/",
+                "target": "_blank"
+              },
+              "content": "Get started with the official documentation!"
+            }
+          ]
+        }
+      }
+    }
+  }
 }
