@@ -63,6 +63,14 @@ Consiste em uma imagem seguida de um link, agora vamos representar esse HTML em 
 
 Para cada tag HTML vamos criar um objeto JSON com os campos `tag`, `attributes` e `content` representando a sua respectiva tag e os seus childrens.
 
+Podemos colocar estilos nas tags
+
+```
+ "attributes": {
+  "style": "height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; row-gap: 24px; font-family: Arial;"
+  },
+```
+
 # Olhar como ele fazer por tras
 
 # Olhar Shadow DOM

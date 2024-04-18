@@ -7,6 +7,9 @@
       "config": {
         "content": {
           "tag": "div",
+          "attributes": {
+            "style": "height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; row-gap: 24px; font-family: Arial;"
+          },
           "content": [
             {
               "tag": "img",
@@ -19,7 +22,8 @@
               "tag": "a",
               "attributes": {
                 "href": "https://micro-lc.io/",
-                "target": "_blank"
+                "target": "_blank",
+                "style": "text-shadow: 2px 2px #aaa"
               },
               "content": "Get started with the official documentation!"
             }
