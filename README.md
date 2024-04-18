@@ -71,6 +71,10 @@ Podemos colocar estilos nas tags
   },
 ```
 
+# Parei em Compose Less By Reusing
+
+# Estudar a doc da mozilla sobre web
+
 # Olhar como ele fazer por tras
 
 # Olhar Shadow DOM
