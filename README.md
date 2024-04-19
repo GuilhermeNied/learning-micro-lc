@@ -82,6 +82,45 @@ Após isso podemos adicionar a tag sendo custom-button com o content.
 Podemos tambem adicionar um this.url par adeixar o botão de redirecionamento mais genérico fazendo com que ele seja usado.
 Geramos uma nova string colocamos no lugar da que já existe e adicionamos a url no objeto properties dentro do objeto onde contém a tag.
 
+### Libs
+
+O data protocol serve melhor quando temos não temos server. Mas em casos no mundo real utilizamos servers, então podemos utilizar libs para tornar mais fácil
+
+Por exemplo, temos a lib bk-web-compontents:
+`https://cdn.jsdelivr.net/npm/@micro-lc/bk-web-components/dist/bk-web-components.esm.js`
+
+Ela tem um componente chamado bk-button, podemos acoplar ele em nossa config.
+
+```
+{
+  "content": {
+    "tag": "div",
+    "content": [
+      {
+        ... 👈 img tag
+      },
+      {
+        "tag": "bk-button",
+        "properties": {
+          "content": "Go to official documentation",
+          "action": {
+            "type": "href",
+            "config": {
+              "href": "https://micro-lc.io/",
+              "target": "_blank"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "sources": [
+    // 👇 here
+    "https://cdn.jsdelivr.net/npm/@micro-lc/bk-web-components/dist/bk-web-components.esm.js"
+  ]
+}
+```
+
 # Estudar a doc da mozilla sobre web
 
 # Olhar como ele fazer por tras
