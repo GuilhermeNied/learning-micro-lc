@@ -121,6 +121,8 @@ Ela tem um componente chamado bk-button, podemos acoplar ele em nossa config.
 }
 ```
 
+# Parei em Layout
+
 # Estudar a doc da mozilla sobre web
 
 # Olhar como ele fazer por tras
