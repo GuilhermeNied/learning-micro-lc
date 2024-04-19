@@ -71,7 +71,16 @@ Podemos colocar estilos nas tags
   },
 ```
 
-# Parei em Compose Less By Reusing
+## Compose less by reusing
+
+Para comerçarm os, vamos criar um arquivo chamado custom-button.js
+
+Após criarmos o botão, executamos este comando `echo "data:text/javascript;base64,$(base64 -w 0 custom-button.js)"` para gerar uma string que colocaremos na nossa config dentro de um objeto chamado source que é uma lista.
+
+Após isso podemos adicionar a tag sendo custom-button com o content.
+
+Podemos tambem adicionar um this.url par adeixar o botão de redirecionamento mais genérico fazendo com que ele seja usado.
+Geramos uma nova string colocamos no lugar da que já existe e adicionamos a url no objeto properties dentro do objeto onde contém a tag.
 
 # Estudar a doc da mozilla sobre web
 

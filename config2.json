@@ -5,11 +5,15 @@
       "integrationMode": "compose",
       "route": "/",
       "config": {
+        "sources": [
+          "data:text/javascript;base64,Y2xhc3MgQ3VzdG9tQnV0dG9uIGV4dGVuZHMgSFRNTEVsZW1lbnQgew0KICBjb25uZWN0ZWRDYWxsYmFjaygpIHsNCiAgICBjb25zdCBzaGFkb3dEb20gPSB0aGlzLmF0dGFjaFNoYWRvdyh7IG1vZGU6ICdvcGVuJyB9KQ0KICAgIGNvbnN0IHNsb3QgPSB0aGlzLm93bmVyRG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnc2xvdCcpDQogICAgY29uc3QgYnV0dG9uID0gdGhpcy5vd25lckRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2J1dHRvbicpDQoNCiAgICBidXR0b24ub25jbGljayA9ICgpID0+DQogICAgICB0aGlzLnVybCAmJg0KICAgICAgd2luZG93Lm9wZW4odGhpcy51cmwsIHsNCiAgICAgICAgdGFyZ2V0OiAnX2JsYW5rJw0KICAgICAgfSkNCg0KICAgIGJ1dHRvbi5hcHBlbmRDaGlsZChzbG90KQ0KICAgIHNoYWRvd0RvbS5hcHBlbmRDaGlsZChidXR0b24pDQogIH0NCn0NCg0KY3VzdG9tRWxlbWVudHMuZGVmaW5lKCdjdXN0b20tYnV0dG9uJywgQ3VzdG9tQnV0dG9uKQ0K"
+        ],
         "content": {
           "tag": "div",
           "attributes": {
             "style": "height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; row-gap: 24px; font-family: Arial;"
           },
+
           "content": [
             {
               "tag": "img",
@@ -19,11 +23,9 @@
               }
             },
             {
-              "tag": "a",
-              "attributes": {
-                "href": "https://micro-lc.io/",
-                "target": "_blank",
-                "style": "text-shadow: 2px 2px #aaa"
+              "tag": "custom-button",
+              "properties": {
+                "url": "https:micro-lc.io/"
               },
               "content": "Get started with the official documentation!"
             }
