@@ -133,6 +133,8 @@ Não existe um limite para forma e estilo de um layout. Vamos começar com com u
 
 O objeto de applications configura a parte do conteúdo da viewport do micro-lc. O campo de layout, por outro lado, o layout configura a parte do viewport
 
+# Parei em layout - As highlighted in the JSON above...
+
 # Estudar a doc da mozilla sobre web
 
 # Olhar como ele fazer por tras
