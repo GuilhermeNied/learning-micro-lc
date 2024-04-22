@@ -121,7 +121,17 @@ Ela tem um componente chamado bk-button, podemos acoplar ele em nossa config.
 }
 ```
 
-# Parei em Layout
+# Layout
+
+Micro lc e um componente web que executa diversas funções. Principalmente, dividir a dom em duas seções
+
+- Layout
+- Content
+
+O content varia de acordo com a URL da página, montando e desmontando microfrontends.
+Não existe um limite para forma e estilo de um layout. Vamos começar com com um layout com uma side bar e topbar, reservabdi o espaço de conteúdos para a aplicações ou microfrontends dinâmicos que mudam dinamicamente abaixo da barra superior e a direta da barra lateral
+
+O objeto de applications configura a parte do conteúdo da viewport do micro-lc. O campo de layout, por outro lado, o layout configura a parte do viewport
 
 # Estudar a doc da mozilla sobre web
 
