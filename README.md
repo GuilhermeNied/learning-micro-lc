@@ -133,7 +133,27 @@ Não existe um limite para forma e estilo de um layout. Vamos começar com com u
 
 O objeto de applications configura a parte do conteúdo da viewport do micro-lc. O campo de layout, por outro lado, o layout configura a parte do viewport
 
-# Parei em layout - As highlighted in the JSON above...
+O campo layout serve como contexto de composição, nela podemos utilizar chaves como:
+
+- Sources - Para incluir bibliotecas de terceiros(também pode ser um script de efeito colateral de JS puro)
+- Content - Para projetar o layout usando config JSON semelhante a HTML.
+
+Agora vamos dar uma olhada no web component `bk-layout`. O bk-layout é um componente de menu sidebar e topbar configurável de diversas maneiras por meio das props.
+
+```
+{
+  "layout" : {
+    "content": {
+      "tag": "bk-layout
+    },
+    "sources": [
+      "https://cdn.jsdelivr.net/npm/@micro-lc/bk-web-components/1.3.18/dist/bk-web-components.esm.js"
+    ]
+  }
+}
+```
+
+Ao utilizarmos esta config, uma sidebar e uma topbar
 
 # Estudar a doc da mozilla sobre web
 
