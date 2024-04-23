@@ -153,7 +153,9 @@ Agora vamos dar uma olhada no web component `bk-layout`. O bk-layout é um compo
 }
 ```
 
-Ao utilizarmos esta config, uma sidebar e uma topbar
+Ao utilizarmos esta config, uma sidebar e uma topbar.
+
+# Parei aqui, layout - Now, the logo appears,
 
 # Estudar a doc da mozilla sobre web
 
