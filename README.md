@@ -121,7 +121,7 @@ Ela tem um componente chamado bk-button, podemos acoplar ele em nossa config.
 }
 ```
 
-# Layout
+## Layout
 
 Micro lc e um componente web que executa diversas funções. Principalmente, dividir a dom em duas seções
 
@@ -155,7 +155,13 @@ Agora vamos dar uma olhada no web component `bk-layout`. O bk-layout é um compo
 
 Ao utilizarmos esta config, uma sidebar e uma topbar.
 
-# Parei aqui, layout - Now, the logo appears,
+O bk-layout utiliza a <u>[api de roteamento do micro-lc](https://micro-lc.io/api/micro-lc-api/routing/)</u>
+
+# An about page
+
+Embora ainda não tenhamos criar vários microfrontends, vamos nos preparar para etapas futuras adicionando uma nova entrada ao menu da barra lateral
+
+Apesar de termos adicionado um item no menu, ainda não temos a página 'about'
 
 # Estudar a doc da mozilla sobre web
 
