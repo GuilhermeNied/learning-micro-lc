@@ -163,6 +163,8 @@ Embora ainda não tenhamos criar vários microfrontends, vamos nos preparar para
 
 Apesar de termos adicionado um item no menu, ainda não temos a página 'about'
 
+# Parei em aplicativos
+
 # Estudar a doc da mozilla sobre web
 
 # Olhar como ele fazer por tras
