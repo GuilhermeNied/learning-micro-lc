@@ -183,6 +183,8 @@ O iframe que aponta para `example.com` se ajusta perfeitamente ao contexto, por 
 
 A forma mais simples de integração com o microfrontend é a tag HTML `iframe`, que coloca uma página em outra.
 
+# Parei em Iframe - With the introduction of this new integration mode
+
 # Estudar a doc da mozilla sobre web
 
 # Olhar como ele fazer por tras
