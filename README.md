@@ -157,13 +157,31 @@ Ao utilizarmos esta config, uma sidebar e uma topbar.
 
 O bk-layout utiliza a <u>[api de roteamento do micro-lc](https://micro-lc.io/api/micro-lc-api/routing/)</u>
 
-# An about page
+## An about page
 
-Embora ainda não tenhamos criar vários microfrontends, vamos nos preparar para etapas futuras adicionando uma nova entrada ao menu da barra lateral
+Embora ainda não tenhamos criar vários microfrontends, vamos nos preparar para etapas futuras adicionando uma nova entrada ao menu da barra lateral.
 
-Apesar de termos adicionado um item no menu, ainda não temos a página 'about'
+Apesar de termos adicionado um item no menu, ainda não temos a página 'about'.
 
-# Parei em aplicativos
+## Applications
+
+Um elemento muito importante está faltando na configuração `applications`.
+
+A configuração de `applications` lida com a dinamicidade da viewport do micro-lc, que monta e desmonta componentes com base na alteração da URL.
+
+Temos 3 campos configurados para `home`:
+
+- `route`, serve como regra de ativação para este aplicativo.
+- `integrationMode`, que, até agora, possui apenas o valor compose.
+- `config`, fornece o contexto da composição
+
+Para resolver o erro 404 que o ocorre quando tentamos acessar a página about, vamos utilizar um `integrationMode` diferente.
+
+O iframe que aponta para `example.com` se ajusta perfeitamente ao contexto, por causa do style que o micro-lc predefine para `applications` integrados ao iframe.
+
+### IFrame
+
+A forma mais simples de integração com o microfrontend é a tag HTML `iframe`, que coloca uma página em outra.
 
 # Estudar a doc da mozilla sobre web
 

@@ -32,6 +32,11 @@
           ]
         }
       }
+    },
+    "about": {
+      "integrationMode": "iframe",
+      "route": "/about",
+      "src": "https://example.com"
     }
   },
   "layout": {
